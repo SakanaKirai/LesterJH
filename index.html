@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>PageLess</title>
+    <link rel = "icon" href ="https://cdn-icons-png.flaticon.com/512/223/223203.png" type = "image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="banner">
+        <div class="banner-text">
+            <h1>Project</h1>
+            <p></p>
+            <div class="banner-btn">
+                <a href="structural.html"><span></span>structural</a>
+                <a href="behavioral.html"><span></span>behavioral</a>
+            </div>
+        </div>
+    </section>
+<div id="sideNav">
+    <nav>
+        <ul>
+            <li><a href="login.html">Sign in</a></li>
+            <li><a href="register.html">Sign up</a></li>
+        </ul>
+    </nav>
+</div>
+<div id="menuBtn">
+    <img src="https://www.freeiconspng.com/thumbs/ghost-icon/ghost-icon-14.png" id="menu">
+</div>
+<script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu= document.getElementById("menu")
+
+    sideNav.style.right = "-250px";
+
+    menuBtn.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0";
+            menu.src = "https://icons-for-free.com/iconfiles/png/512/circle-131964784751270258.png";
+        }
+        else{
+            sideNav.style.right = "-250px";
+            menu.src = "https://www.freeiconspng.com/thumbs/ghost-icon/ghost-icon-14.png";
+        }
+    }
+</script>
+
+
+</body>
+</html>

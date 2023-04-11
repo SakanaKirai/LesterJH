@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://rare-gallery.com/mocahbig/27986-Artistic-Pixel-Art-4k-Ultra-HD-Wallpaper.png');
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Press Start 2P', 'cursive';
+}
+p{
+    color: #fff;
+    font-size: 10px;
+    line-height: 10px;
+    font-family: 'Press Start 2P', 'cursive';
+
+}
+.card{
+    width: 230px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+.card1{
+    background-image: url(https://i.gifer.com/YQgT.gif);
+}
+.card2{
+    background-image: url(https://wallpaperaccess.com/full/7824075.gif);
+}
+.card3{
+    background-image: url(https://giffiles.alphacoders.com/209/209343.gif);
+}
+.card4{
+    background-image: url(https://78.media.tumblr.com/bceedc67b039e55d7b7e265d29f91f09/tumblr_nzreonWrWm1tvppquo1_r1_1280.gif);
+}
+.card5{
+    background-image: url(https://media.tenor.com/wIa91mot0tAAAAAC/pixel-city-chill.gif)
+}
+.card6{
+    background-image: url(https://gifdb.com/images/high/pixel-art-animated-toyoi-yuuta-yl28fl6e0r6ozvvk.gif)
+}
+.card7{
+    background-image: url(https://i.pinimg.com/originals/ea/1b/df/ea1bdf6d9252c306566a6547b9b15817.gif)
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #444444;
+}
+body {
+    overflow: overlay;
+}
+
+.div1 {
+    background: grey;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    height: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(90, 90, 90);
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+}
